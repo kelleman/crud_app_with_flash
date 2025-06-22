@@ -1,6 +1,7 @@
 <?php
 session_start();
 require '../connection.php';
+require '../controllers/search.php';
 
     $search = $_GET['search'] ?? '';
 
